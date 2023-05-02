@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-image: url("../img/background-min.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo-container {
+    margin-top: 24vh;
+    height: 43.3vh;
+    width: 80vw;
+}
+
+.menu-container {
+    margin-top: 1.3vh;
+    height: 6.8vh;
+    width: 44.8vw;
+}
+
+.fit-container {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+}
