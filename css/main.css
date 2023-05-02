@@ -8,6 +8,7 @@ a {
 }
 
 body {
+    position: relative;
     height: 100vh;
     width: 100vw;
     display: flex;
@@ -36,4 +37,19 @@ body {
     width: 100%;
     object-fit: contain;
     object-position: center;
+}
+
+.icons-footer-container {
+    position: absolute;
+    bottom: 3.15vh;
+    height: 2.85vh;
+    width: 56.15vw;
+}
+
+.icons-sidebar-container {
+    position: absolute;
+    bottom: 3.15vh;
+    right: 4.4vw;
+    height: 45vh;
+    width: 3.7vw;
 }
